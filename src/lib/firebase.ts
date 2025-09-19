@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB2Pbc0vzxBS2WZNOgfoxQsZ7o5GU_GKeo",
-    authDomain: "travelerio.firebaseapp.com",
-    projectId: "travelerio",
-    storageBucket: "travelerio.firebasestorage.app",
-    messagingSenderId: "1021167402266",
-    appId: "1:1021167402266:web:e83549f3da34f995bd00a3",
-    measurementId: "G-RFZ3PP94JC"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
